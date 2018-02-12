@@ -1,0 +1,58 @@
+
+.bg
+{ 
+
+    background-image: url("imgs/heart.jpg");
+
+    
+      height: 100%; 
+      
+     
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg1{
+    background-image: url("imgs/heart.jpg");
+
+    
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+     background-size:cover;
+}
+
+#bt
+{
+text-align: center;
+}
+.ig{
+    text-align: left;
+}
+.c{
+    text-align: left;
+}
+.nav{
+    float: left;
+    max-width: 500px;
+    margin: 0;
+    padding: 1em;
+}
+footer {
+    padding: 1em;
+    max-width: 400px;
+    text-align: center;
+    
+    }
+
+
+    #nav-ul{
+
+        float:left;
+        
+        padding: 1em;
+        overflow: hidden;
+}
+p{
+font-size: 1em;
+
+}

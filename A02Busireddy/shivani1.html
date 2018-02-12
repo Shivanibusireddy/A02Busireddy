@@ -1,0 +1,99 @@
+<head>
+    <title>Health Checker</title>
+    <link rel="stylesheet"
+		href="shivani.css" />
+		<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="shivani.css">
+  
+</head>
+
+<body class="bg1">
+        <nav class="navbar navbar-inverse">
+
+				<ul class="nav navbar-nav">
+          <li><a href="#"><strong>Busireddy Shivani</strong></a></li>
+						
+          <li><a href="shivani.html"><strong> Homepage</strong></a></li>
+          <li class="active"><a href="shivani1.html"><strong> Health Checker</strong></a></li>
+						<li><a href="contact.html"><strong>Contact</strong></a></li>
+						
+					  </ul>
+		
+				
+			
+		</nav>
+
+        <form action="shivani1.html">
+                <div class="container">
+                        <div class="row">
+                            <div class='col-sm-3'>
+            <div class="f">
+                
+              <label for="strt">Enter your Age:</label>
+              <input type="text" class="form-control" id="sd">
+            </div>
+            </div>
+
+                            <div class='col-sm-3'>
+            <div class="f">
+                
+              <label for="strt1">Enter your gender:</label><br>
+              <input type="radio" name="gender" value="male"   > Male
+              <input type="radio" name="gender" value="female"  checked> Female<br>
+              
+            </div>
+            </div>
+            <div class='col-sm-3'>
+              <div class="f">
+                  
+                <label for="strt2">Enter your Height:</label>
+                
+                <input type="text" class="form-control" id="height">
+                <select type="multiple" id="height_unit">
+                    <option value="metres" selected="selected">Metres</option>
+                    <option value="inches">inches</option>
+                </select>
+                
+              
+              </div>
+              </div>
+              <div class='col-sm-3'>
+                <div class="f">
+                    
+                  <label for="strt3">Enter your Weight:</label>
+                  <input type="text" class="form-control" id="weight">
+
+                  <select type="multiple" id="weight_unit">
+                      <option value="kg">Kilograms</option>
+                      <option value="pounds">Pounds</option>
+                      
+                    </select>
+                
+                </div>
+                </div>
+        </div><br>
+        <div class="f1">
+            
+                <label for="cal"  >Calculated BMI:</label>
+                <div clas="row">
+
+               
+                <input type="text" class="form-control" id="sol" value=""><br>
+                
+                <p ><strong>You are :</strong><h1 id="comment"></h1></p>
+              </div>
+              </div><br>
+            <div id="bt">
+            <button   type="button" onclick="App.launch()"  class="btn btn-lg btn-danger">Submit</button>
+        </div>
+        <div> 
+
+        </div>
+          </form>
+          <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+          <script type="text/javascript"  src="about.js"></script>
+</body>
